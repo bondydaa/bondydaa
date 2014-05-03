@@ -1,0 +1,76 @@
+@import "compass/css3";
+@import "compass/reset";
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  background: #267a52;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  color: #fff;
+  float: left;
+  margin: 3em auto;
+  text-align: center;
+  width: 100%;
+}
+
+.headline {
+  font-size: 2.000em;
+  margin-bottom: 1.250em;
+}
+
+.social-links {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+%social-format {
+  float: left;
+  vertical-align: middle;
+}
+
+%text-indent {
+  text-indent: -999em;
+}
+
+.twitter {
+  @extend %social-format;
+  @extend %text-indent;
+  background: url(/images/twitter_white.png) 0 8px no-repeat;
+  padding: 25px;
+}
+
+.github {
+  @extend %social-format;
+  @extend %text-indent;
+  background: url(/images/octocat.png) 0 0 no-repeat;
+  padding: 31px 36px;
+}
+
+.email {
+  @extend %social-format;
+  font-size: 3.125em;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

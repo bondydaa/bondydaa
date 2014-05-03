@@ -1,0 +1,23 @@
+{
+  "name": "bondydaa.com",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bondydaa/bondydaa.git"
+  },
+  "dependencies": {
+    "compass": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "assemble": "~0.4.35",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-imagemin": "~0.1.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "pretty": "0.1.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
