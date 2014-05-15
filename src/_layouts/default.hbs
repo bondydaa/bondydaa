@@ -6,8 +6,14 @@
   <link rel="stylesheet" href="/css/bondydaa.css">
 </head>
 <body class="clearfix">
-  {{> body}}
+  {{#is header 'on'}}
+  {{> header}}
+  {{/is}}
 
+  <section class="content">
+    {{> body}}
+    {{> footer}}
+  </section>
 
   <script src="/scripts/vendor/jquery2.0.min.js"></script>
   <script src="/scripts/main.js"></script>

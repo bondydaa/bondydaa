@@ -71,57 +71,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   background: #267a52;
   font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
 
 p {
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
-.placeholder {
-  color: #fff;
-  float: left;
-  margin: 3em auto;
+.footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.social-link {
+  flex-grow: 1;
+  flex-basis: 50px;
   text-align: center;
-  width: 100%;
-}
-
-.headline {
-  font-size: 2.000em;
-  margin-bottom: 1.250em;
-}
-
-.social-links {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.twitter, .github, .email {
-  float: left;
-  vertical-align: middle;
-}
-
-.twitter, .github {
-  text-indent: -999em;
-}
-
-.twitter {
-  background: url(/images/twitter_white.png) 0 8px no-repeat;
-  padding: 25px;
-}
-
-.github {
-  background: url(/images/octocat.png) 0 0 no-repeat;
-  padding: 31px 36px;
-}
-
-.email {
-  font-size: 3.125em;
-}
-.email a {
-  color: #fff;
-  text-decoration: none;
-}
-.email a:hover {
-  text-decoration: none;
 }
